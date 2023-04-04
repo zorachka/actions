@@ -13,7 +13,7 @@ on:
         type: string
 
 jobs:
-  psalm:
+  phpstan:
     name: PHP ${{ matrix.php }}-${{ matrix.os }}
 
     runs-on: ${{ matrix.os }}
